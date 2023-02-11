@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="contact-us.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row px-5 mt-5 align-items-center justify-content-center">
+            <h1 class="header text-capitalize">
+                need help? contact us.<i class="fa-solid fa-message px-2"></i>
+            </h1>
+            <p class="text text-capitalize d-inline-flex">
+                for all your queries and suggestions, please get in touch with us. happy to help!
+            </p>
+        </div>
+        <div class="row mt-5 mb-5 align-items-start justify-content-start">
+            <div class="col-6 d-block mt-5 mb-5 address">
+                <p class="mail d-inline-flex align-items-baseline">
+                    <i class="fa-solid fa-envelope px-2"></i>scbsales@qurinomsolutions.com
+                </p><br>
+                <p class="mobile d-inline-flex align-items-baseline">
+                    <i class="fa-solid fa-phone-volume px-2"></i>+91 9182723087
+                </p><br>
+                <p class="location d-inline-flex align-items-baseline">
+                    <i class="fa-solid fa-location-dot px-2"></i>Asia - India (Hyderabad, Pune & Amravati)
+                </p><br>
+                <p class="location1 d-inline-flex align-items-baseline">
+                    <i class="fa-solid fa-location-dot px-2"></i>Singapore
+                </p><br>
+                <p class="location2 d-inline-flex align-items-baseline">
+                    <i class="fa-solid fa-location-dot px-2"></i>Indonesia - Jakarta
+                </p><br>
+                <p class="location3 d-inline-flex align-items-baseline">
+                    <i class="fa-solid fa-location-dot px-2"></i>Africa - Johannesburg
+                </p>
+            </div>
+            <div class="col-6 mb-5 input">
+                <div class="form" style="color: coral;">
+                    <form action="" method="post" onsubmit="sendEmail(); reset(); return false;">
+                        <h4>Send A Message</h4>
+                        <div class="mb-3">
+                            <label for="name">Your Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter Full Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email">Your Email</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter A Valid Email ID" required>
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mobile">Your Mobile Number</label>
+                            <input type="text" class="form-control" id="mobile" aria-describedby="mobileHelp" placeholder="Enter A Valid Mobile number" required>
+                            <div id="mobileHelp" class="form-text">We'll never share your mobile number with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="subject">Subject</label>
+                            <input type="text" class="form-control" id="subject" placeholder="Enter The Subject">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message">Message</label>
+                            <textarea type="text" class="form-control" id="message" placeholder="Type Your Message" rows="5" cols="10" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success btn-lg px-2">SEND<i class="fa-solid fa-paper-plane px-1"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/js/all.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+            Email.send({
+                Host : "smtp.webmail.com",
+                Username : "scbsales@qurinomsolutions.com",
+                Password : "*p!xFMJNTnHQ",
+                To : 'scbsales@qurinomsolutions.com',
+                From : document.getElementById("email").value,
+                Subject : document.getElementById("subject").value,
+                Body : "Name: " + document.getElementById("name").value + "<br> Email: " + document.getElementById("email").value + "<br> Mobile No.: " + document.getElementById("mobile").value + "<br> Subject: " + document.getElementById("subject").value + "<br> Message: " + document.getElementById("message").value
+            }).then(
+            message => alert("Message Sent Successfully")
+            );
+        }
+
+    </script>
+</body>
+</html>

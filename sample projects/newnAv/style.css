@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;900&display=swap');
+body {
+    margin: 0 auto;
+    padding: 0;
+    background: #fefefe00;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.795);
+    min-height: 100vh;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu-bar,
+.dropdown-menu {
+    background-image: linear-gradient(-90deg, #d38312, #a32279);
+}
+
+a.nav-link {
+    font-weight: 700;
+    font-size: medium;
+    margin: 3px;
+    color: #fff !important;
+}
+
+.navbar-nav {
+    text-align: center;
+    margin-left: 20px;
+}
+
+.menu-bar .navbar-toggler {
+    padding-right: 20px;
+    outline: none !important;
+    border: none !important;
+    border-radius: 30%;
+}
+
+.navbar .fa-solid {
+    color: #fff !important;
+    font-size: 26px;
+}
+
+.navbar .fa-solid:hover,
+.nav-link:hover {
+    font-weight: 600;
+    border-bottom: 1px solid #1437ff;
+    color: #fbff14 !important;
+    transition: all 0.3s ease-in-out;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-link:hover,
+    .dropdown-item:hover {
+        border-bottom: none !important;
+        border-top: none !important;
+    }
+}
+
+.navbar-brand img {
+    width: 150px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.dropdown-item {
+    font-weight: 400;
+    font-size: medium;
+    color: #fff !important;
+}
+
+.dropdown-item:hover {
+    color: #fbff14 !important;
+    background-image: linear-gradient(-90deg, #d38312, #a32279);
+    border-bottom: 1px solid #1cff14;
+    border-top: 1px solid #1437ff;
+    border-radius: 30%;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+.search-box input {
+    border-radius: 25%;
+}
+
+.search-box .btn {
+    border-radius: 50%;
+}

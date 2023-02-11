@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pl-main-wrapper {
+    overflow-x: hidden;
+    font-family: "Poppins";
+}
+
+.pl-heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 80px;
+    background: linear-gradient(135deg, #324873 0%, #0E197D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-left: -5%;
+}
+
+.pl-para {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 44px;
+    color: #5B5B5B;
+}
+
+.pl-bg {
+    background: #020522;
+}
+
+.card {
+    border: none;
+    border-radius: 20px;
+}
+
+.card-footer {
+    border: none;
+    background: #ffffff;
+}
+
+.card-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 80px;
+    color: #640B3B;
+}
+
+.card-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 44px;
+    /* or 178% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #5B5B5B;
+}

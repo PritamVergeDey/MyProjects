@@ -1,0 +1,391 @@
+            /*responsive*/
+            
+            @media(max-width: 1199px) {
+                .container {
+                    max-width: 100%;
+                    --bs-gutter-x: 30px;
+                }
+            }
+            
+            @media(max-width: 991px) {
+                .search-box {
+                    position: relative;
+                    left: 170px;
+                    top: -10px;
+                }
+                .icon>a.user {
+                    left: calc(75%);
+                }
+                .login>a.btn {
+                    left: calc(82%);
+                }
+                .profile-thumbnail {
+                    position: relative;
+                    left: -50px;
+                }
+                .profile-headline {
+                    top: calc(90%);
+                    position: relative;
+                    left: calc(-10%);
+                }
+                .profile-headline>a {
+                    left: calc(65%);
+                    top: -38px;
+                }
+                .profile-headline>a.btn {
+                    left: calc(58%);
+                    top: -40px;
+                }
+                .profile-headline>a.set {
+                    left: 240px;
+                }
+                .profile-details>p {
+                    text-align: left;
+                    position: relative;
+                    left: calc(-10%);
+                    width: 250px;
+                    top: -40px;
+                }
+                .profile-details>p.count {
+                    left: -45px;
+                }
+                .profile-details>a {
+                    position: relative;
+                    width: 500px;
+                    height: 40px;
+                    left: -170px;
+                    text-align: left;
+                    top: 20px;
+                }
+                .profile-details>a.about {
+                    position: relative;
+                    width: auto;
+                    height: auto;
+                    left: calc(-36%);
+                    text-align: center;
+                    top: -5px;
+                    display: flex;
+                    flex-direction: row;
+                }
+                .profile-details>a.whatsapp {
+                    position: relative;
+                    width: auto;
+                    height: auto;
+                    left: -123px;
+                    text-align: center;
+                    top: -5px;
+                }
+                .profile-details>a.gps {
+                    position: relative;
+                    width: auto;
+                    height: auto;
+                    left: -103px;
+                    text-align: center;
+                    top: -5px;
+                }
+                .banner-text>h1 {
+                    position: relative;
+                    left: 15px;
+                    font-size: 40px;
+                    text-align: center;
+                }
+                .fun-facts-items>h1 {
+                    position: relative;
+                    left: -180px;
+                    align-items: center;
+                }
+                .free-text>h1 {
+                    left: 20px;
+                    font-size: 56px;
+                }
+                .free-text>a {
+                    top: 270px;
+                }
+            }
+            
+            @media(max-width: 767px) {
+                .container {
+                    --bs-gutter-x: 15px;
+                }
+                .search-box {
+                    position: relative;
+                    left: 170px;
+                    top: -5px;
+                }
+                .icon>a.user {
+                    left: calc(75%);
+                }
+                .login>a.btn {
+                    left: calc(82%);
+                }
+                .profile-thumbnail {
+                    position: relative;
+                    left: -225px;
+                    top: -20px;
+                }
+                .profile-headline {
+                    top: 10px;
+                    position: relative;
+                    left: calc(30%);
+                    display: flex;
+                    flex-direction: column;
+                }
+                .profile-headline>h3.name {
+                    right: -20px;
+                    position: relative;
+                    top: -15px;
+                }
+                .profile-headline>a {
+                    left: calc(40%);
+                    top: -58px;
+                }
+                .profile-headline>a.set {
+                    left: calc(27%);
+                    top: -67px;
+                }
+                .profile-headline>a.btn {
+                    left: 50px;
+                    top: -15px;
+                    max-width: 100px;
+                }
+                .profile-details>p {
+                    text-align: center;
+                    position: relative;
+                    left: calc(30%);
+                }
+                .profile-details>p.count {
+                    text-align: center;
+                    position: relative;
+                    left: calc(42%);
+                    top: -65px;
+                }
+                .profile-details>a {
+                    position: relative;
+                    width: 350px;
+                    height: 40px;
+                    left: -120px;
+                    text-align: center;
+                    top: 20px;
+                }
+                .profile-details>a.about {
+                    position: relative;
+                    width: 1000px;
+                    height: 60px;
+                    left: calc(12%);
+                    text-align: center;
+                    top: -25px;
+                }
+                .profile-details>a.whatsapp {
+                    position: relative;
+                    width: 300px;
+                    height: auto;
+                    left: calc(-35%);
+                    text-align: center;
+                    top: 45px;
+                }
+                .profile-details>a.gps {
+                    position: relative;
+                    width: 300px;
+                    height: auto;
+                    left: calc(-27%);
+                    text-align: center;
+                    top: 45px;
+                }
+                .banner-text>h1 {
+                    position: relative;
+                    left: -80px;
+                    font-size: 40px;
+                    text-align: center;
+                }
+                .fun-facts-items>h1 {
+                    position: relative;
+                    left: -70px;
+                    align-items: center;
+                }
+                .free-text>h1 {
+                    left: -70px;
+                    font-size: 56px;
+                }
+                .free-text>a {
+                    top: 250px;
+                }
+            }
+            
+            @media(max-width: 575px) {
+                .search-box {
+                    position: relative;
+                    left: 145px;
+                    top: 0;
+                }
+                .search-box:hover>.search-txt {
+                    width: 200px;
+                }
+                .icon>a.user {
+                    left: calc(76%);
+                }
+                .login>a.btn {
+                    left: calc(85%);
+                    width: 80px;
+                }
+                .banner-text>h1 {
+                    position: relative;
+                    left: -180px;
+                    font-size: 36px;
+                    text-align: center;
+                }
+                .fun-facts-items>h1 {
+                    position: relative;
+                    left: -160px;
+                    align-items: center;
+                }
+                .free-text>h1 {
+                    left: -160px;
+                    font-size: 56px;
+                }
+                .free-text>a {
+                    top: 250px;
+                }
+                .profile-thumbnail {
+                    position: relative;
+                    left: -115px;
+                }
+                .profile-headline {
+                    top: 5px;
+                    position: relative;
+                    left: calc(25%);
+                }
+                .profile-headline>a {
+                    left: calc(25%);
+                    top: -25px;
+                }
+                .profile-headline>a.set {
+                    left: calc(40%);
+                }
+                .profile-details>p {
+                    text-align: center;
+                    position: relative;
+                    left: calc(38%);
+                    top: -20px;
+                    width: 215px;
+                }
+                .profile-details>p.count {
+                    left: calc(43%);
+                    top: -75px;
+                }
+                .profile-details>a {
+                    position: relative;
+                    width: 500px;
+                    height: 40px;
+                    left: -45px;
+                    text-align: center;
+                    top: 50px;
+                }
+                .profile-details>a.about {
+                    left: 55px;
+                    top: -40px;
+                    height: 70px;
+                    width: 400px;
+                }
+                .profile-details>a.whatsapp {
+                    top: 40px;
+                    left: calc(-27%);
+                    height: auto;
+                    width: auto;
+                }
+                .profile-details>a.gps {
+                    top: 40px;
+                    left: calc(-25%);
+                    height: auto;
+                    width: auto;
+                }
+            }
+            
+            @media(max-width: 375px) {
+                .search-box {
+                    position: relative;
+                    left: -5px;
+                    top: 45px;
+                }
+                .icon>a.user {
+                    left: calc(57%);
+                }
+                .login>a.btn {
+                    left: calc(70%);
+                }
+                .profile-thumbnail {
+                    position: relative;
+                    left: -25px;
+                }
+                .profile-headline {
+                    top: calc(50%);
+                    left: calc(25%);
+                }
+                .profile-headline>h3.name {
+                    left: -45px;
+                }
+                .profile-headline>a {
+                    left: calc(20%);
+                    top: -25px;
+                }
+                .profile-headline>a.btn {
+                    left: -15px;
+                }
+                .profile-headline>a.set {
+                    left: calc(50%);
+                }
+                .profile-details>p {
+                    text-align: center;
+                    position: relative;
+                    left: calc(29%);
+                    top: -40px;
+                }
+                .profile-details>p.count {
+                    left: calc(53%);
+                }
+                .profile-details>a {
+                    position: relative;
+                    width: 300px;
+                    height: 60px;
+                    left: -40px;
+                    text-align: center;
+                    top: 30px;
+                }
+                .profile-details>a.about {
+                    width: auto;
+                    height: auto;
+                    top: -10px;
+                    left: -50px;
+                }
+                .profile-details>a.whatsapp {
+                    left: -35px;
+                    top: -10px;
+                }
+                .profile-details>a.gps {
+                    left: -20px;
+                    top: -10px;
+                }
+                .banner-text>h1 {
+                    position: relative;
+                    left: -270px;
+                    font-size: 32px;
+                    text-align: center;
+                }
+                .fun-facts-items>h1 {
+                    position: relative;
+                    left: -260px;
+                    text-align: center;
+                }
+                .circular-img-circle {
+                    height: 260px;
+                    width: 220px;
+                    border-radius: 60%;
+                    left: 5px;
+                }
+                .free-text>h1 {
+                    left: -260px;
+                    font-size: 36px;
+                }
+                .free-text>a {
+                    top: 250px;
+                }
+            }

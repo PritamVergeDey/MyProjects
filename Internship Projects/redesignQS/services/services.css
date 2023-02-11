@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@700&family=Poppins:wght@400;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.s-main-wrapper {
+    overflow-x: hidden;
+}
+
+.s-img-1 {
+    margin-left: -7%;
+}
+
+.s-img-2 {
+    margin-left: -20%;
+}
+
+.s-img-3 {
+    margin-left: 20%;
+    margin-top: -68%;
+}
+
+.s-tr {
+    margin-top: -15%;
+}
+
+.s-heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 108px;
+    line-height: 108px;
+    display: flex;
+    align-items: center;
+    color: #FA6400;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 10%;
+}
+
+.s-para {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #656464;
+    margin-left: 10%;
+}
+
+.s-img-4 {
+    width: 81px;
+    height: 70px;
+    margin-left: 10%;
+}
+
+.s-img-5 {
+    width: 778px;
+    height: 562px;
+    margin-left: -70%;
+}
+
+.card {
+    border: none;
+    margin-top: 20%;
+}
+
+.s-img-6,
+.s-img-7,
+.s-img-8,
+.s-img-9,
+.s-img-10,
+.s-img-11,
+.s-img-12 {
+    width: 339px;
+    height: 352px;
+    border-radius: 53px;
+}
+
+.s-uud,
+.s-pd,
+.s-dm,
+.s-dt,
+.s-hc,
+.s-ic,
+.s-cm {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.s-btn-1 {
+    background: linear-gradient(135deg, #000000 0%, #FA742B 100%);
+    border-radius: 30px;
+    width: 287px;
+    height: 86px;
+}
+
+.s-btn-2 {
+    background: linear-gradient(135deg, #000000 0%, #1D6FA3 100%);
+    border-radius: 30px;
+    width: 287px;
+    height: 86px;
+}
+
+.s-btn-3 {
+    background: linear-gradient(135deg, #000000 0%, #D939CD 100%);
+    border-radius: 30px;
+    width: 287px;
+    height: 86px;
+}
+
+.s-btn-4 {
+    background: linear-gradient(135deg, #000000 0%, #123597 100%);
+    border-radius: 30px;
+    width: 287px;
+    height: 86px;
+}
+
+.s-btn-5 {
+    background: linear-gradient(135deg, #000000 0%, #B210FF 100%);
+    border-radius: 30px;
+    width: 287px;
+    height: 86px;
+}
+
+.s-btn-6 {
+    background: linear-gradient(135deg, #000000 0%, #7367F0 100%);
+    border-radius: 30px;
+    width: 287px;
+    height: 86px;
+}
+
+.s-btn-7 {
+    background: linear-gradient(135deg, #000000 0%, #2376DD 100%);
+    border-radius: 30px;
+    width: 287px;
+    height: 86px;
+}
+
+.s-img-13 {
+    margin-left: -27rem;
+    margin-top: -65rem;
+}
+
+.s-img-14 {
+    margin-left: 27rem;
+    margin-top: -140rem;
+}

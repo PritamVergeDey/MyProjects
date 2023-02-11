@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.p-main-wrapper {
+    overflow-x: hidden;
+}
+
+.card {
+    border: none;
+}
+
+.card-body {
+    margin-top: -50%;
+}
+
+.p-heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 58px;
+    display: flex;
+    background: linear-gradient(135deg, #43CBFF 0%, #9708CC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.p-para {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    color: #505050;
+}
+
+.p-img-1 {
+    width: 240px;
+    height: 207px;
+    margin-left: -80%;
+    margin-top: -80%;
+}
+
+.p-wwd {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 108px;
+    background: linear-gradient(135deg, #F05F57 0%, #360940 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-top: -25%;
+}
+
+.wwd-para {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #505050;
+}
+
+.p-img-2 {
+    width: 748.82px;
+    height: 1149.66px;
+    margin-left: -28%;
+    margin-top: -40%;
+    margin-bottom: 20%;
+}
+
+.p-img-3 {
+    width: 532px;
+    height: 512px;
+    margin-top: -290%;
+    margin-left: -35%;
+}
+
+.p-img-4 {
+    width: 532px;
+    height: 512px;
+    margin-top: -90%;
+    margin-left: 10%;
+}
+
+.p-dis,
+.p-des,
+.p-dev {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 42px;
+    background: linear-gradient(135deg, #F05F57 0%, #360940 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.dis-para,
+.des-para,
+.dev-para {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    color: #505050;
+}
+
+.p-img-5 {
+    width: 1239px;
+    height: 799px;
+    margin-top: 10%;
+}
+
+.p-img-6 {
+    width: 240px;
+    height: 207px;
+    margin-left: 80%;
+}

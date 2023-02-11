@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Raleway:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.l-main-wrapper {
+    overflow-x: hidden;
+}
+
+.card {
+    border: none;
+}
+
+.l-img-3 {
+    margin-left: 2%;
+    margin-top: -2%;
+}
+
+.l-tr {
+    margin-top: -45%;
+}
+
+.l-heading {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin-left: 10%;
+}
+
+.l-para {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-left: 10%;
+}
+
+.l-btn-1 {
+    background: #D83030;
+    border-radius: 8px;
+    margin-left: 30%;
+}
+
+.l-gs {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.l-img-4 {
+    width: 702px;
+    height: 443px;
+    margin-left: -30%;
+}
+
+.l-img-5 {
+    width: 116px;
+    height: 229px;
+    margin-left: -15%;
+}
+
+.l-wqs {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #333333;
+}
+
+.l-wqs-para {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+}
+
+.l-wqs-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: #3371F2;
+}
+
+.wqs-col {
+    margin-left: -20%;
+}
+
+.l-num {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #CCCCCC;
+    margin-left: 11%;
+}
+
+.l-t1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+}
+
+.l-dcc-bg {
+    background: rgba(78, 142, 163, 0.12);
+    border-radius: 43px;
+    width: 220px;
+}
+
+.l-dcc {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+}
+
+.l-cc-bg {
+    background: rgba(134, 174, 255, 0.12);
+    border-radius: 43px;
+    width: 220px;
+}
+
+.cc-col {
+    margin-right: 5%;
+}
+
+.l-cc {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+}
+
+.l-img-6 {
+    width: 274px;
+    height: 402px;
+    margin-left: -125%;
+}
+
+.i-col {
+    margin-left: -20%;
+}
+
+.l-i-bg {
+    background: rgba(73, 210, 136, 0.2);
+    border-radius: 43px;
+    width: 220px;
+}
+
+.l-i {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+}
+
+.l-sa-bg {
+    background: rgba(241, 194, 188, 0.26);
+    border-radius: 43px;
+    width: 220px;
+}
+
+.l-sa {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+}
+
+.l-os {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: #333333;
+}
+
+.l-smt {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+}
+
+.l-img-7 {
+    width: 53px;
+    height: 69px;
+    margin-left: 5%;
+}
+
+.l-fc,
+.l-qe,
+.l-ep {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 44px;
+    color: #182F43;
+}
+
+.l-t2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.005em;
+    color: #182F43;
+}
+
+.l-bg-1 {
+    background: rgba(166, 255, 239, 0.22);
+    border-radius: 8px;
+    width: 330px;
+}
+
+.l-bg-2 {
+    background: #EBF2F8;
+    border-radius: 8px;
+    width: 330px;
+}
+
+.l-img-8 {
+    height: 363px;
+    width: 379px;
+    margin-left: -30%;
+    margin-top: -20%;
+}
+
+.l-oct {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 44px;
+    color: #182F43;
+}
+
+.l-para-1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #182F43;
+}
+
+.l-img-9,
+.l-img-10,
+.l-img-11 {
+    width: 225px;
+    height: 220px;
+    border-radius: 8px;
+}
+
+.l-pk,
+.l-hpw,
+.l-gd,
+.l-djs {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #182F43;
+}
+
+.l-t3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.005em;
+    color: #182F43;
+}
+
+.card-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #0F43F9;
+}
+
+.l-img-12 {
+    width: 366px;
+    height: 240px;
+    margin-left: -5%;
+    margin-top: -40%;
+}
+
+.bg-soft-info {
+    height: 650px;
+    background: linear-gradient(135deg, #C2FFD8 0%, #465EFB 100%);
+    border-radius: 50px;
+}
+
+.l-sysst {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 52px;
+    color: #182F43;
+}
+
+.l-para-2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #182F43;
+}
+
+.l-btn-2 {
+    background: rgba(8, 53, 124, 0.35);
+    border-radius: 14px;
+}
+
+.l-contact {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.l-img-13 {
+    width: 655px;
+    height: 594px;
+    margin-left: -10%;
+}
